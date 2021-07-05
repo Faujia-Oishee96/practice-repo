@@ -1,6 +1,7 @@
 body{
     font-family: 'Dancing Script', cursive;
     font-family: 'Noto Serif', serif;
+    margin: 0;
 }
 h1{
     font-size: 40px;
@@ -23,14 +24,26 @@ p{
     padding: 10px 20px;
     border-radius: 10px;
 }
+
+.btn:hover{
+    box-shadow: 3px 3px 8px coral;
+}
 .flexible-content{
     display: flex;
-    padding-left: 60px;
+    padding-left: 80px;
+    padding-bottom: 60px;
+}
+.distance{
+    padding-left: 150px;
 }
 .half-width{
     width: 50%;
 }
-.half-width img{
-    width: 50%;
+.img1{
+    width: 70%;
     border-radius: 50%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
