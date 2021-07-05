@@ -34,7 +34,7 @@ p{
 }
 .flexible-content{
     display: flex;
-    padding-left: 80px;
+    padding-left: 100px;
     padding-bottom: 60px;
 }
 .distance{
@@ -49,7 +49,7 @@ p{
 }
 
 .top-banner{
-    background-image: url(images/top-banner.png);
+    background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
 }
 
