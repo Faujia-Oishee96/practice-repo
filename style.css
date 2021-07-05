@@ -1,0 +1,36 @@
+body{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Noto Serif', serif;
+}
+h1{
+    font-size: 40px;
+    color: rgb(87, 59, 25);
+}
+h2{
+    color: rgb(91, 115, 116);
+}
+p{
+    color: darkgray;
+}
+.span-clr{
+    color:rgb(197, 105, 38) ;
+}
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(243, 183, 161),salmon);
+    color: white;
+    font-weight: 900;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.flexible-content{
+    display: flex;
+    padding-left: 60px;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 50%;
+    border-radius: 50%;
+}
